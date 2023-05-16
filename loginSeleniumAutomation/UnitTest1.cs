@@ -1,10 +1,14 @@
 ﻿using System.Drawing;
-using System.Drawing;
 using System.Runtime.Intrinsics.X86;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OpenQA.Selenium.Remote;
+using System;
+
 namespace loginSeleniumAutomation;
 
 [TestClass]
@@ -37,6 +41,30 @@ public class UnitTest1
         bool titleIsEqual = txt_title.Equals("The Internet");
         Assert.IsTrue(titleIsEqual);
         Console.WriteLine("Test has completed. Back to Home page.");
+
+    }
+
+    [TestMethod]
+    public void test3()
+    {
+        ChromeOptions options = new ChromeOptions();
+        options.AddArguments("--start-maximized");
+
+        string username = "admin";
+        string password = "admin";
+        string url = "https://" + username + ":" + password + "@the-internet.herokuapp.com/basic_auth";
+
+        IWebDriver driver = new ChromeDriver(options);
+
+        driver.Url = url;
+        Console.WriteLine("at basic auth page page.");
+
+        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
+        String txt_title = driver.Title.ToString();
+        bool titleIsEqual = txt_title.Equals("The Internet");
+        Assert.IsTrue(titleIsEqual);
+        Console.WriteLine("Test has completed. On Basic Auth page.");
+
 
     }
 
