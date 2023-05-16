@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Wxr7Zi9a8u4BMXHQM4HwD2bkjcDq82uKONmPOmbAJYp7pe1QX1iWsdDU7phN5H9UWZ9McMpJMjgeFuOEDQg88g==",
+  "dgSpecHash": "EKWI3XJYkUm5IlWNzNhCUQAzFclSylWxr/8QwuJFoGlCILue2TIi5rXNCGq9MqHMFh5sHPIWod671LMFum9JAg==",
   "success": true,
   "projectFilePath": "/Users/viradethxay-ananh/Projects/loginSeleniumAutomation/loginSeleniumAutomation/loginSeleniumAutomation.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,9 @@
     "/Users/viradethxay-ananh/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/viradethxay-ananh/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
+    "/Users/viradethxay-ananh/.nuget/packages/selenium.support/4.9.1/selenium.support.4.9.1.nupkg.sha512",
+    "/Users/viradethxay-ananh/.nuget/packages/selenium.webdriver/4.9.1/selenium.webdriver.4.9.1.nupkg.sha512",
+    "/Users/viradethxay-ananh/.nuget/packages/selenium.webdriver.chromedriver/113.0.5672.6300/selenium.webdriver.chromedriver.113.0.5672.6300.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/Users/viradethxay-ananh/.nuget/packages/system.diagnostics.textwritertracelistener/4.3.0/system.diagnostics.textwritertracelistener.4.3.0.nupkg.sha512",
